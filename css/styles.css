@@ -1,0 +1,40 @@
+body, .top-bar-section ul li>a {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.top-bar .toggle-topbar {
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .top-bar .toggle-topbar a {
+      color: white;
+      text-transform: uppercase;
+      font-size: 0.72222rem;
+      font-weight: bold;
+      position: relative;
+      display: block;
+      padding: 0 15px;
+      height: 45px;
+      line-height: 45px; }
+    .top-bar .toggle-topbar.menu-icon {
+      right: 15px;
+      top: 50%;
+      margin-top: -16px;
+      padding-left: 40px; }
+      .top-bar .toggle-topbar.menu-icon a {
+        height: 34px;
+        line-height: 33px;
+        padding: 0;
+        padding-right: 25px;
+        color: white;
+        position: relative; }
+        .top-bar .toggle-topbar.menu-icon a::after {
+          content: "";
+          position: absolute;
+          right: 0;
+          display: block;
+          width: 16px;
+          top: 0;
+          height: 0;
+          -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+          box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
