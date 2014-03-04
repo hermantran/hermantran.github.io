@@ -2,49 +2,135 @@
 layout: default
 title: Herman Tran
 ---
-
-<!--
-    <section id="home">
-      <div class="row">
-        <div class="small-12 columns">
-          <h3>Home</h3>
-      </div>
-    </section>
--->
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">{{ site.name }}</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+      
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="/blog">Blog</a>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </section>
+    </nav>
 
     <section id="about">
       <div class="row">
-        <div class="small-12 columns">
-          <h3>About</h3>
-          <p>I am a graduating senior at the University of Southern California majoring in Business Administration with minors in Web Technologies and Video Game Programming. I am especially interested in front end development and am always trying to learn and read up on the latest web technologies, including AngularJS, Node.js, and MongoDB.</p>
-        </div>
+        <h2 class="small-12 columns">About</h2>
+      </div>
+      <div class="row">
+        <p class="small-12 columns">
+          I am a graduating senior at the University of Southern California majoring in 
+          Business Administration with minors in Web Technologies and Video Game Programming.
+          I am especially interested in front end development and am always trying to learn 
+          and read up on the latest web technologies, including AngularJS, Node.js, and 
+          MongoDB.
+        </p>
+      </div>
     </section>
 
     <section id="portfolio"> 
       <div class="row">
-        <div class="small-12 columns">
-          <h3>Portfolio</h3>
-        </div>
+        <h2 class="small-12 columns">Portfolio</h2>
+      </div>
+      
+      <div class="row">
+        <h3 class="small-12 columns">Personal Projects</h3>
+      </div>
         
-        <div class="small-12 columns">
-          <ul>
-            <li><a href="https://github.com/hermantran/HTL">HTL</a></li>
-            <li><a href="//ng-racesurfer.aws.af.cm">ng-racesurfer</a></li>
-            <li><a href="//crunchbrain.aws.af.cm">CrunchBrain</a></li>
-            <li><a href="//racesurfer.aws.af.cm">RaceSurfer</a></li>
-            <li><a href="//tutorusc.com">TutorUSC</a></li>
-            <li><a href="//lakerspulse.aws.af.cm/index.php/LakersPulse/">LakersPulse</a></li>
-            <li><a href="//www-scf.usc.edu/~hermantr/itp499/project/">Exploring Canvas</a></li>
-          </ul>
+      <div class="row">
+        <div class="small-4 columns">
+          <a class="th" href="//hermantran.github.io/la-weather/">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>LA Weather</h4>
+        </div>
+        <div class="small-4 columns">
+          <a class="th" href="//algorithm-visualizer.aws.af.cm">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>Algorithm Visualizer</h4>
+        </div>
+        <div class="small-4 columns">
+          <a class="th" href="//algorithm-visualizer.aws.af.cm">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>algorithms</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-4 columns">
+          <a class="th" href="//ng-racesurfer.aws.af.cm">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>ng-racesurfer</h4>
+        </div>
+        <div class="small-4 columns">
+          <a class="th" href="//hermantran.github.io/crunchbrain/">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>CrunchBrain</h4>
+        </div>
+        <div class="small-4 columns">
+          &nbsp;
+        </div>
+      </div>
+          
+      <div class="row">
+        <h3 class="small-12 columns">Academic Projects</h3>
+      </div>
+      
+      <div class="row">
+        <div class="small-12 medium-4 columns">
+          <a class="th" href="https://github.com/hermantran/HTL">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>HTL</h4>
+        </div>
+        <div class="small-12 medium-4 columns">
+          <a class="th" href="//ec2-54-200-181-70.us-west-2.compute.amazonaws.com">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>RaceSurfer</h4>
+        </div>
+        <div class="small-12 medium-4 columns">
+          <a class="th" href="#">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>Pledg</h4>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="small-4 columns">
+          <a class="th" href="//hermantran.github.io/ITP499-Final-Project/">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>Exploring Canvas</h4>
+        </div>
+        <div class="small-4 columns">
+          <a class="th" href="//tutorusc.com">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>TutorUSC</h4>
+        </div>
+        <div class="small-4 columns">
+          <a class="th" href="https://php-lakerspulse.rhcloud.com/index.php/LakersPulse/">
+            <img src="http://placehold.it/350x200">
+          </a>
+          <h4>LakersPulse</h4>
         </div>
       </div>
     </section>
 
     <section id="contact">
       <div class="row">
-        <div class="small-12 columns">
-          <h3>Contact</h3>
-        </div>
+        <h2 class="small-12 columns">Contact</h2>
       </div>
       
       <div class="row">
@@ -58,3 +144,7 @@ title: Herman Tran
         </div>
       </div>
     </section>
+      
+    <footer class="text-center">
+      &copy; 2014 Herman Tran
+    </footer>
