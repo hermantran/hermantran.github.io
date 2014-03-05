@@ -108,3 +108,7 @@ footer {
     left: inherit;
     right: 0px;
 }
+
+.contact-list a.btn {
+  width: 45px;
+}

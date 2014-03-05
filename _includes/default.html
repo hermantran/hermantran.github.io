@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 
 {% include header.html %}
 
-   <body>
+  <body>
    		<nav class="navbar navbar-default visible-xs" role="navigation">
 		  <!-- Brand and toggle get grouped for better mobile display -->
 		  <div class="navbar-header">
@@ -13,9 +13,9 @@
 			  <span class="icon-bar"></span>
 			  <span class="icon-bar"></span>
 			</button>
-			{% if site.author.github %}
-			<a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}">
-		      <i class="fa fa-github"></i>
+			{% if site.author.linkedin %}
+			<a type="button" class="navbar-toggle nav-link" href="http://linkedin.com/in/{{ site.author.linkedin }}">
+		      <i class="fa fa-linkedin"></i>
 		    </a>
 		    {% endif %}
 		    {% if site.author.twitter %}
@@ -70,9 +70,18 @@
 		</div>
 
     
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+	<script src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
+	<script src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-48579278-1', 'hermantran.github.io');
+      ga('send', 'pageview');
+    </script>
    </body>
 
 </html>
