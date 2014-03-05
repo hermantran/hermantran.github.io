@@ -1,3 +1,40 @@
-name: Herman Tran
-markdown: redcarpet
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 pygments: true
+
+title: Herman Tran
+description: Herman Tran's blog
+author:
+  name: Herman Tran
+  email: hermanctran@gmail.com
+  github: hermantran
+  twitter: 
+  pinterest: 
+  linkedin: hermantran
+  bio: Aspiring web developer
+  email_md5: 92c2d07ba83f104d2aec6e6e6ae14d9f
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH: 
+
+# All links will be namespaced by BASE_PATH if defined.
+# Links in your website should always be prefixed with {{ site.BASE_PATH }}
+# Do not put a "/" at the end of the url.
+#
+# CNAME (http://yourcustomdomain.com)
+#   DO NOT SET BASE_PATH JUST LEAVE IT BLANK 
+#   (urls will be prefixed with "/" and work relatively)
+#
+# GitHub Pages (http://username.github.io)
+#   DO NOT SET BASE_PATH JUST LEAVE IT BLANK 
+#   (urls will be prefixed with "/" and work relatively)
+#
+# GitHub Project Pages (http://username.github.io/project-name)
+#  A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+#  REQUIRED! Set BASE_PATH to "http://username.github.io/project-name"
