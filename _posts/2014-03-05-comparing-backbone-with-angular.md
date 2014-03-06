@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comparing Backbone with AngularJS
+title: Comparing Backbone with Angular
 description: Sample placeholder post.
 comments: true
 ---
