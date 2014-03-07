@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Comparing Backbone with Angular
-description: Sample placeholder post.
+description: I recently finished rebuilding an old school project 
 comments: true
 ---
 
