@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thoughts on Backbone and Angular
-description: I recently started rebuilding a Backbone-based project into using Angular with some intentions of becoming a convert in the process, but I walk away framework independent with an appreciation for what both have to offer.
+description: I recently started rebuilding a Backbone-based project into using Angular with some expectations of eventually siding with one framework, but I finished with an appreciation for what both have to offer.
 comments: true
 ---
 
