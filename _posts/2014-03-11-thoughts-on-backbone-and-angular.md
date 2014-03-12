@@ -7,7 +7,7 @@ comments: true
 
 <p>I recently started rebuilding a <a href="http://ec2-54-200-181-70.us-west-2.compute.amazonaws.com" target="_blank">Backbone-based project</a> into <a href="http://ng-racesurfer.aws.af.cm" target="_blank">using Angular</a> with some expectations of eventually siding with one framework, but I ended up finishing the rebuilding process with an appreciation for what both have to offer.</p>
 
-<p>The project in question is a geolocation app that plots running race events near the user and lists associated event details. I first built the project with plain old jQuery for my <a target="_blank" href="http://web-app.usc.edu/soc/syllabus/20123/31835.pdf">ITP 404 class (Developing Web Services and APIs)</a>, and given that the project is a single page app, it made sense to rebuild it with Backbone and then Angular when I started learning each framework. The project is small enough in scope to rebuild but still non-trivial, with support for the following features:
+<p>The project in question is a geolocation app that plots running race events near the user and lists associated event details. I first built the project with plain old jQuery for my <a target="_blank" href="http://web-app.usc.edu/soc/syllabus/20123/31835.pdf">ITP 404 class (Developing Web Services and APIs)</a>, and given that the project is a single page app, it made sense to rebuild it with Backbone and then Angular when I started learning each framework. The project is small enough in scope to rebuild but still non-trivial, with support for the following features:</p>
 
 <ul>
     <li>Geolocation, Google Maps, and Active API integration</li>
